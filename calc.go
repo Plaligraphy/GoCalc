@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/fatih/color"
 )
@@ -25,6 +26,7 @@ func main() {
 		color.Yellow("Version: " + vnum)
 		color.Yellow("Created by Evan Carter 2019")
 	case 4:
+		os.Exit(0)
 	}
 }
 func graphingFunction() {
