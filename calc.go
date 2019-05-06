@@ -33,5 +33,15 @@ func graphingFunction() {
 
 }
 func mathFunction() {
-
+   cls();
+   var function string;
+   color.Magenta("Functions");
+   fmt.Println(" +, -, *, / ");
+   fmt.Scanln(&function);
+}
+func cls() {
+clsbuffer := 200
+  for i:=1; i < clsbuffer; i++ {
+	fmt.Println("\n");
+  }
 }
